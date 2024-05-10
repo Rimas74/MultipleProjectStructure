@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using MultipleProjectStructure.Database.Entities;
 using Microsoft.AspNetCore.Http;
+using MultipleProjectStructure.Dtos;
 
-namespace MultipleProjectStructure.BusinessLogic.Dtos
+namespace MultipleProjectStructure.Dtos
 {
     public class ImageUploadDto
     {

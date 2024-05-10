@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using System.IO;
 using System.Linq;
 
-namespace MultipleProjectStructure.BusinessLogic.Dtos
+namespace MultipleProjectStructure.Dtos
 {
     public class MaxFileSizeAttribute : ValidationAttribute
     {

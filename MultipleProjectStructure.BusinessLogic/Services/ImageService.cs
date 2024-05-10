@@ -44,15 +44,27 @@ namespace MultipleProjectStructure.BusinessLogic.Services
 
         private byte[] CreateThumbnail(byte[] imageData, int width, int height)
         {
-            using var ms = new MemoryStream(imageData);
-            using var img = System.Drawing.Image.FromStream(ms);
+            if (imageData == null || imageData.Length == 0)
+            {
+                throw new ArgumentException("Image data cannot be null or empty.", nameof(imageData));
+            }
+            try
+            {
+                using var ms = new MemoryStream(imageData);
+                using var img = System.Drawing.Image.FromStream(ms);
 
-            using var thumb = img.GetThumbnailImage(width, height, null, nint.Zero);
+                using var thumb = img.GetThumbnailImage(width, height, null, nint.Zero);
 
-            using var thumbStream = new MemoryStream();
-            thumb.Save(thumbStream, ImageFormat.Jpeg);
+                using var thumbStream = new MemoryStream();
+                thumb.Save(thumbStream, ImageFormat.Jpeg);
 
-            return thumbStream.ToArray();
+                return thumbStream.ToArray();
+            }
+            catch (Exception ex)
+            {
+                throw new ArgumentException("Error creating thumbnail. The image data may be invalid., ex");
+            }
+
         }
 
 

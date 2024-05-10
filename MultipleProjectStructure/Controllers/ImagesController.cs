@@ -7,7 +7,8 @@ using System.Drawing;
 using System.Net.NetworkInformation;
 using System.Web;
 using MultipleProjectStructure.BusinessLogic.Services.Interfaces;
-using MultipleProjectStructure.BusinessLogic.Dtos;
+using MultipleProjectStructure.Dtos;
+
 
 namespace MultipleProjectStructure.Controllers
 {

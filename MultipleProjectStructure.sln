@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleProjectStructure", "MultipleProjectStructure\MultipleProjectStructure.csproj", "{ABB52732-E089-4AF0-8E5B-9D1C12A3B2D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleProjectStructure", "MultipleProjectStructure\MultipleProjectStructure.csproj", "{ABB52732-E089-4AF0-8E5B-9D1C12A3B2D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleProjectStructure.BusinessLogic", "MultipleProjectStructure.BusinessLogic\MultipleProjectStructure.BusinessLogic.csproj", "{5539F4A9-59A3-4794-977E-CCA29C2AFDC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleProjectStructure.BusinessLogic", "MultipleProjectStructure.BusinessLogic\MultipleProjectStructure.BusinessLogic.csproj", "{5539F4A9-59A3-4794-977E-CCA29C2AFDC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleProjectStructure.Database", "MultipleProjectStructure.Database\MultipleProjectStructure.Database.csproj", "{C3DF1472-80AE-4FCE-A44A-280E08174D9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleProjectStructure.Database", "MultipleProjectStructure.Database\MultipleProjectStructure.Database.csproj", "{C3DF1472-80AE-4FCE-A44A-280E08174D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseUnitTest", "DatabaseUnitTest\DatabaseUnitTest.csproj", "{F6DEB387-1178-4700-9DC5-1D038E40C49B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicUnitTest", "BusinessLogicUnitTest\BusinessLogicUnitTest.csproj", "{C51C87A7-5770-4507-8264-9C7E962D86AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{C3DF1472-80AE-4FCE-A44A-280E08174D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3DF1472-80AE-4FCE-A44A-280E08174D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3DF1472-80AE-4FCE-A44A-280E08174D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6DEB387-1178-4700-9DC5-1D038E40C49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DEB387-1178-4700-9DC5-1D038E40C49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6DEB387-1178-4700-9DC5-1D038E40C49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6DEB387-1178-4700-9DC5-1D038E40C49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51C87A7-5770-4507-8264-9C7E962D86AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51C87A7-5770-4507-8264-9C7E962D86AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51C87A7-5770-4507-8264-9C7E962D86AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51C87A7-5770-4507-8264-9C7E962D86AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
