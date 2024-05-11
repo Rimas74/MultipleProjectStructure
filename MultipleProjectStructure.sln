@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleProjectStructure.Bu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleProjectStructure.Database", "MultipleProjectStructure.Database\MultipleProjectStructure.Database.csproj", "{C3DF1472-80AE-4FCE-A44A-280E08174D9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseUnitTest", "DatabaseUnitTest\DatabaseUnitTest.csproj", "{F6DEB387-1178-4700-9DC5-1D038E40C49B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseUnitTest", "DatabaseUnitTest\DatabaseUnitTest.csproj", "{F6DEB387-1178-4700-9DC5-1D038E40C49B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicUnitTest", "BusinessLogicUnitTest\BusinessLogicUnitTest.csproj", "{C51C87A7-5770-4507-8264-9C7E962D86AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogicUnitTest", "BusinessLogicUnitTest\BusinessLogicUnitTest.csproj", "{C51C87A7-5770-4507-8264-9C7E962D86AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllersUnitTest", "ControllersUnitTest\ControllersUnitTest.csproj", "{131FADFB-235F-4D2E-A6F2-5BCF31AEC8C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C51C87A7-5770-4507-8264-9C7E962D86AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C51C87A7-5770-4507-8264-9C7E962D86AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C51C87A7-5770-4507-8264-9C7E962D86AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131FADFB-235F-4D2E-A6F2-5BCF31AEC8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131FADFB-235F-4D2E-A6F2-5BCF31AEC8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131FADFB-235F-4D2E-A6F2-5BCF31AEC8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131FADFB-235F-4D2E-A6F2-5BCF31AEC8C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

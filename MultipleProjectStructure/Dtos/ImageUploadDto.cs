@@ -9,7 +9,6 @@ namespace MultipleProjectStructure.Dtos
     {
         public string FileName { get; set; }
 
-
         [Required]
         [MaxFileSize(5 * 1024 * 1024)] // 5 MB
         [AllowedExtensions(new[] { ".png", ".jpg", ".jpeg", ".gif" })]
